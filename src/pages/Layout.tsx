@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 
 function Layout() {
   return (
-    <div>
+    <div className="container">
       <div className="top-navigation">
         <nav>
           <ul>
