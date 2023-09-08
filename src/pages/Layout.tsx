@@ -7,19 +7,29 @@ function Layout() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <div className="top-navigation-button">
+                <Link to="/">Home</Link>
+              </div>
             </li>
             <li>
-              <Link to="/catalog">Catalog</Link>
+              <div className="top-navigation-button">
+                <Link to="/catalog">Catalog</Link>
+              </div>
             </li>
             <li>
-              <Link to="/news">News</Link>
+              <div className="top-navigation-button">
+                <Link to="/news">News</Link>
+              </div>
             </li>
             <li>
-              <Link to="/downloads">Downloads</Link>
+              <div className="top-navigation-button">
+                <Link to="/downloads">Downloads</Link>
+              </div>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <div className="top-navigation-button">
+                <Link to="/about">About</Link>
+              </div>
             </li>
           </ul>
         </nav>
@@ -31,4 +41,4 @@ function Layout() {
   )
 };
 
-export default Layout
+export default Layout;
