@@ -1,7 +1,7 @@
 import styles from 'styles/Catalog.module.css';
 
 function Catalog() {
-    return(<div>Catalog</div>)
+    return(<div className={styles.Catalog}>Catalog</div>)
 }
 
 export default Catalog;
